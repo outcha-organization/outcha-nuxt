@@ -6,3 +6,8 @@ node_modules
 .output
 .env
 dist
+
+# Ignore IDEs
+.fleet
+.idea
+.vscode
