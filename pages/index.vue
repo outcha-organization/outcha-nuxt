@@ -1,3 +1,3 @@
 <template>
-  Hello, World!
+  <Hero />
 </template>
