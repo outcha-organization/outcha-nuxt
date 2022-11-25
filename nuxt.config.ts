@@ -7,6 +7,7 @@ export default defineNuxtConfig({
           additionalData: `
             @use '@/assets/css/_variables' as *
             @use '@/assets/css/_mixins' as *
+            @use '@/assets/css/_fonts' as *
           `
         }
       }
