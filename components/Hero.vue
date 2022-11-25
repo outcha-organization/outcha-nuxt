@@ -2,7 +2,7 @@
   <section class="hero">
     <video
       class="fullscreen"
-      src="~/assets/videos/home-yukon-medium.mp4"
+      src="~/assets/videos/home-yukon.mp4"
       playsinline autoplay muted loop>
     </video>
 
