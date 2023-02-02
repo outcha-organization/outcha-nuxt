@@ -11,7 +11,7 @@
         <p class="subtitle">Yukon</p>
         <p class="title">Arctic Ultra</p>
         <p class="tagline">La course d'ultra la plus froide et la plus difficile au monde</p>
-        <p><a href="#" class="button">Voir le teaser</a></p>
+        <p><a href="https://youtu.be/yLOG3ipbeNg" class="button" target="_blank">Voir le teaser</a></p>
       </div>
     </div>
   </section>
