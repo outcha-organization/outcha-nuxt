@@ -64,4 +64,7 @@
 
     &:hover
       border-bottom: 2px solid #ff1130
+
+    &.router-link-active
+      color: #ff1130
 </style>
