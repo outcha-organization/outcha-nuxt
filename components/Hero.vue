@@ -23,7 +23,11 @@
   display: grid
   place-items: center
   height: 65vh
+  min-height: 450px
   width: 100%
+
+  +tablet
+    min-height: 500px
 
 video.fullscreen
   position: absolute
@@ -39,7 +43,8 @@ video.fullscreen
   z-index: 1
   width: 100%
   height: 100%
-  background: url("~/assets/images/trash-bottom-1.png") repeat-x center bottom
+  background: url("~/assets/images/trash-bottom-2.png") repeat-x center bottom
+  background-size: 100%
   display: flex
   justify-content: center
   align-items: center
@@ -48,7 +53,7 @@ video.fullscreen
     justify-content: flex-start
 
 .hero-content
-  margin: 40px 50px 50px 50px
+  margin: 0 50px 50px 50px
   max-width: 450px
   display: flex
   flex-direction: column
