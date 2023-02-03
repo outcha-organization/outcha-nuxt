@@ -70,6 +70,7 @@ video.fullscreen
   font-weight: 400
   letter-spacing: -1px
   text-transform: uppercase
+  text-shadow: 2px 2px 6px #333
   margin: 0
 
 .subtitle
@@ -78,6 +79,7 @@ video.fullscreen
   line-height: 90px
   font-weight: 700
   color: $primary
+  text-shadow: 1px 1px 6px #333
   margin: 0
   z-index: 1
 
@@ -85,6 +87,7 @@ video.fullscreen
   font-size: 26px
   color: #fff
   margin: 10px 0 30px 0
+  text-shadow: 0 0 3px #999
 
 .button
   font-size: 16px
@@ -94,6 +97,7 @@ video.fullscreen
   color: #fff
   text-decoration: none
   text-transform: uppercase
+  text-shadow: 0 0 3px #666
 
   &:hover
     background-color: #d9441c

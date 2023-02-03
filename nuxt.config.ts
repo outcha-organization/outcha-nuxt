@@ -5,9 +5,11 @@ export default defineNuxtConfig({
       preprocessorOptions: {
         sass: {
           additionalData: `
-            @use '@/assets/css/_variables' as *
-            @use '@/assets/css/_mixins' as *
-            @use '@/assets/css/_fonts' as *
+            @import '@/assets/css/_variables'
+            @import '@/assets/css/_mixins'
+            @import '@/assets/css/_fonts'
+            @import '@/assets/css/_helpers'
+            @import '@/assets/css/_layout'
           `
         }
       }
