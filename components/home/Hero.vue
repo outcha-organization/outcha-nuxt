@@ -1,13 +1,13 @@
 <template>
   <section class="hero">
     <video
-      class="fullscreen"
+      class="hero-video"
       src="~/assets/videos/home-yukon.mp4"
       playsinline autoplay muted loop>
     </video>
 
-    <div class="hero-body">
-      <div class="hero-content">
+    <div class="hero-content">
+      <div class="container">
         <p class="subtitle">Yukon</p>
         <p class="title">Arctic Ultra</p>
         <p class="tagline">La course d'ultra la plus froide et la plus difficile au monde</p>
@@ -29,7 +29,7 @@
   +tablet
     min-height: 500px
 
-video.fullscreen
+.hero-video
   position: absolute
   z-index: 0
   object-fit: cover
@@ -39,24 +39,14 @@ video.fullscreen
   left: 50%
   transform: translate(-50%, -50%)
 
-.hero-body
+.hero-content
   z-index: 1
   width: 100%
   height: 100%
   background: url("~/assets/images/trash-bottom-2.png") repeat-x center bottom
   background-size: 100%
   display: flex
-  justify-content: center
   align-items: center
-
-  +desktop
-    justify-content: flex-start
-
-.hero-content
-  margin: 0 50px 50px 50px
-  max-width: 450px
-  display: flex
-  flex-direction: column
   text-align: center
 
   +desktop

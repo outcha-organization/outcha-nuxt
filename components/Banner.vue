@@ -14,7 +14,7 @@ defineProps({
 
 function parallaxEffect() {
   const distance = window.scrollY
-  document.querySelector('.banner-img').style.transform = `translateY(${distance * 0.2}px)`
+  document.querySelector('.banner-image').style.transform = `translateY(${distance * 0.2}px)`
 }
 
 onMounted(() => {
@@ -28,7 +28,7 @@ onUnmounted(() => {
 
 <template>
   <div class="banner">
-    <div class="banner-img">
+    <div class="banner-image">
       <img :src="`images/${imageURL}`" :alt="title">
     </div>
 
@@ -52,7 +52,7 @@ onUnmounted(() => {
   +desktop
     height: 350px
 
-  .banner-img
+  .banner-image
     z-index: -1
     position: absolute
     top: 0
